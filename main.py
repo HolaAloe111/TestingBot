@@ -7,7 +7,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, ReplyKeyboardMarkup
 from aiogram.filters import Command, CommandStart
 
-bot = Bot('7540534218:AAGU_nCv162Qw2Wli5nLYa_awpV-RTp5FHk',
+bot = Bot('',
           default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher(storage=MemoryStorage())
 
